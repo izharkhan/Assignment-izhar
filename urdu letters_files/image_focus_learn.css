@@ -1,0 +1,50 @@
+figure { 
+  width: 40px;
+   height:50px;  
+  background: black;
+ object-fit:contain;
+ 
+  -webkit-transform: rotate(5deg); 
+  -moz-transform: rotate(5deg);
+  -webkit-transition: all 0.7s ease; 
+  -moz-transition: all 1s ease;
+  position: relative;
+  
+	top:10px;
+	text-align: center;
+	font-family: CHEESEBU;
+	font-size:0;
+	src: url("fonts/CHEESEBU.TTF"); 
+	color:blue;	
+	display: block; 
+
+}
+figcaption{
+color:#FFC400;
+font-family:jabjai_heavy;
+background-color:black;
+}
+
+figure img { 
+  width: 100%; /* Scale down */
+}
+
+figure:hover {
+  -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg);
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+figure:focus {
+
+  overflow:visible;
+vertical-align: middle;
+horizontal-align: middle;
+top:100%;
+  outline: none;
+ height:auto;
+  width:140px;
+  font-size:27px;
+  -webkit-transform: rotate(-3deg) scale(2); -moz-transform: rotate(-6deg) scale(2.5);
+   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+  z-index: 9999;
+}

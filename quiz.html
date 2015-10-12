@@ -1,0 +1,222 @@
+
+<html>
+<head>
+
+
+<style>
+
+/* style for background color/ fonts and animations */
+
+    body {
+	 background-color:black;
+	 overflow:auto;
+	 text-align:center;
+	}
+	@font-face{
+font-family:jabjai_heavy;
+src: url("fonts/jabjai_heavy.TTF");
+}
+	@font-face{
+font-family:CHEESEBU;
+src: url("fonts/CHEESEBU.TTF");
+}
+	header{
+	color:#0099FF;
+	text-align:center;
+font-family:jabjai_heavy;
+	font-size: 90px;
+	animation: slideleft 2s ease-in;
+	}
+	
+	@font-face {
+    font-family: head_font;
+    src: url("fonts/Home School.otf");
+}
+
+
+	@keyframes slideleft{ 
+	 0% { transform: translateX(-200%); }
+	 -100% { transform: translateX(0%); }
+	}
+
+
+
+
+img{
+	left:30%;
+	position:relative;
+	animation:rightslide 1s ease-in;
+}
+
+@keyframes rightslide{
+	from {left:150%;}
+	to {left:30%}
+}
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="styles//quiz_style/quiz_label.css" />
+<link rel="stylesheet" type="text/css" href="styles//quiz_style/last.css" />
+</head>
+<!-- body starts here -->
+<body >
+
+<header> Quiz</header>
+
+<p>Click on the correct Letter</p>
+<!-- question slider starts here with labels as the option buttons -->
+ <ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div class="slide" >
+  <img src="images/yoyo.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label class="wrong">C</label>
+			<label for="img-2" class="right">Y</label>
+			<label class="wrong">Z</label>
+			<label class="wrong">D</label>
+			
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+          	 <img src="images/apple.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label  class="wrong">B</label>
+	<label  class="wrong">F</label>
+	<label  class="wrong">D</label>	
+		<label for="img-3" class="right">A</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          _LEPHANT.
+		  which alphabet is missing?
+        </div>
+		<div class="nav">
+				<label for="img-4" class="right">E</label>
+			<label  class="wrong">V</label>
+			<label  class="wrong">Q</label>
+			<label  class="wrong">R</label>
+		
+		</div>
+    </li>
+	 <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+        <img src="images/panda.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label  class="wrong">Zebra</label>
+			<label  class="wrong">Bear</label>
+			<label for="img-5" class="right">Panda</label>
+			<label  class="wrong">Loin</label>
+			
+		</div>
+    </li>
+	 <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="images/queen.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label  class="wrong">A</label>
+			<label  class="wrong">G</label>
+			<label  class="wrong">K</label>
+			<label for="img-6" class="right">Q</label>
+		</div>
+    </li>
+	 <input type="radio" name="radio-btn" id="img-6" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="images/wheel.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label  class="wrong">Guitar</label>
+			<label for="img-7" class="right">Wheel</label>
+			<label  class="wrong">Car</label>
+			<label  class="wrong">Yoyo</label>
+			
+		</div>
+    </li>
+	 <input type="radio" name="radio-btn" id="img-7" />
+    <li class="slide-container">
+        <div class="slide">
+          _Exter.
+		  which alphabet is missing?
+        </div>
+		<div class="nav">
+			<label for="img-8" class="right">D</label>
+			<label  class="wrong">I</label>
+			<label  class="wrong">Q</label>
+			<label  class="wrong">O</label>
+			
+		</div>
+    </li>
+	 <input type="radio" name="radio-btn" id="img-8" />
+    <li class="slide-container">
+        <div class="slide">
+         <img src="images/frog.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label  class="wrong">P</label>
+			<label  class="wrong">Q</label>
+	<label for="img-9" class="right">F</label>		
+		<label  class="wrong">C</label>
+		
+		</div>
+    </li>
+	 <input type="radio" name="radio-btn" id="img-9" />
+    <li class="slide-container">
+        <div class="slide">
+        <img src="images/hen.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label  class="wrong">Snake</label>
+			<label  class="wrong">Ant</label>
+			<label  class="wrong">Bird</label>
+			<label for="img-10" class="right">Hen</label>
+		</div>
+    </li>
+	
+	 <input type="radio" name="radio-btn" id="img-10" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="images/zombie.png" alt="Yoyo" />
+        </div>
+		<div class="nav">
+			<label  class="wrong">W</label>
+			<label  for="img-11" class="right">Z</label>
+			<label  class="wrong">Y</label>
+			<label  class="wrong">R</label>
+			
+		</div>
+    </li>
+
+	<!-- questions ends here -->
+	
+	<!-- end -->
+ <input type="radio" name="radio-btn" id="img-11" />
+    <li class="slide-container">
+	  <div class="slide">
+	
+          
+		 <button id="back" OnClick=" location.href='Congrats.html' ">END</button>
+        </div>
+	</li>
+
+   
+</ul>
+
+	
+	</div>
+	</div>
+  </div>
+</body>
+</html>
